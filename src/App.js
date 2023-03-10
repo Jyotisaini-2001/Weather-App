@@ -87,7 +87,7 @@ function App() {
         <div className="shadow rounded weatherResultBox">
         <img src={img1} className="WeatherIcon" alt=" " />
         
-        {/* <Forcast className="WeatherIcon"  icon={data.weather[0]?.icon} weather={data.weather[0]?.main} /> */}
+        {<Forcast className="WeatherIcon"  icon={data.weather[0]?.icon} weather={data.weather[0]?.main} />}
                
                   <div className="findWeather">
                   {/* <h3>{data?.weather[0]?.icon}</h3> */}
